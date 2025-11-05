@@ -1,0 +1,17 @@
+{
+  "name": "multiscan",
+  "version": "1.0.0",
+  "description": "High-performance filesystem indexing and search orchestrator with competing strategies.",
+  "type": "commonjs",
+  "bin": {
+    "multiscan": "bin/multiscan.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "start": "node bin/multiscan.js"
+  },
+  "dependencies": {
+    "flexsearch": "0.7.31",
+    "kleur": "4.1.5"
+  }
+}
